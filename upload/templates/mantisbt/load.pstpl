@@ -3,8 +3,8 @@
 
     <span class="error">{LOADERROR}</span>
     <div class="loadmessage">{LOADMESSAGE}</div>
-    
+
     {LOADFORM}
-    
+
     {RETURNTOSURVEY}
 </div>

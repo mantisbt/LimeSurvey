@@ -9,17 +9,17 @@
     <body>
         <div id="limesurvey">
             <h1>{SURVEYNAME}</h1>
-    
+
             <div class="survey-description">{SURVEYDESCRIPTION}</div>
-            
+
             <div class="survey-welcome">{WELCOME}</div>
 
             <p class="x-questions">{THEREAREXQUESTIONS}</p>
-            
+
             {GROUPS}
-            
+
             {PRIVACY}
-            
+
             <p class="submit-by">
                 {END}<br />
                 {SUBMIT_BY}<br />

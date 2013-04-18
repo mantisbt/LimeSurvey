@@ -8,18 +8,18 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  * See COPYRIGHT.php for copyright notices and details.
- * 
- * 
+ *
+ *
  * Description: Javascript file for templates. Put JS-functions for your template here.
- *  
- * 
+ *
+ *
  * $Id:$
  */
 
 
 /*
- * The function focusFirst puts the Focus on the first non-hidden element in the Survey. 
- * 
+ * The function focusFirst puts the Focus on the first non-hidden element in the Survey.
+ *
  * Normally this is the first input field (the first answer).
  */
 function focusFirst(Event)
@@ -41,7 +41,7 @@ function focusFirst(Event)
 }
 /*
  * The focusFirst function is added to the eventlistener, when the page is loaded.
- * 
+ *
  * This can be used to start other functions on pageload as well. Just put it inside the 'ready' function block
  */
 
@@ -59,7 +59,7 @@ function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
 {
    var arVersion = navigator.appVersion.split("MSIE")
    var version = parseFloat(arVersion[1])
-   if ((version >= 5.5) && (version<7) && (document.body.filters)) 
+   if ((version >= 5.5) && (version<7) && (document.body.filters))
    {
       for(var i=0; i<document.images.length; i++)
       {
@@ -77,10 +77,10 @@ function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
             var strNewHTML = "<span " + imgID + imgClass + imgTitle
             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
-            + "(src='" + img.src + "', sizingMethod='scale');\"></span>" 
+            + "(src='" + img.src + "', sizingMethod='scale');\"></span>"
             img.outerHTML = strNewHTML
             i = i-1
          }
       }
-   }    
+   }
 }
