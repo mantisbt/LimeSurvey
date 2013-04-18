@@ -162,18 +162,18 @@ table.register,#load table,#save table
 	margin:20px 0;
 }
 
-#surveylist li.surveytitle
+#surveylist a.surveytitle
 {
 	padding:0 0 5px;
 }
 
-#surveylist li.surveytitle a
+#surveylist a.surveytitle
 {
 	font-size:100%;
 	text-decoration:none;
 }
 
-#surveylist li.surveytitle a:hover
+#surveylist a.surveytitle:hover
 {
 	text-decoration:underline;
 }
