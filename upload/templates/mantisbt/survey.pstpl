@@ -1,0 +1,10 @@
+<div id="surveydata">
+    <h1>{SURVEYNAME}</h1>
+
+    <div class="surveydescription">{SURVEYDESCRIPTION}</div>
+
+    <div class="lang-wrapper">{LANGUAGECHANGER}</div>
+
+    <div class="percentcomplete">{PERCENTCOMPLETE}</div>
+
+</div>

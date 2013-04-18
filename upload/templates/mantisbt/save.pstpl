@@ -1,0 +1,10 @@
+<div id="save">
+    <h1>{SAVEHEADING}</h1>
+
+    <span class="error">{SAVEERROR}</span>
+    <div class="savemessage">{SAVEMESSAGE}</div>
+
+    {SAVEFORM}
+
+    {RETURNTOSURVEY}
+</div>

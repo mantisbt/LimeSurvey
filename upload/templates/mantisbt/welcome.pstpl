@@ -1,0 +1,9 @@
+<div id="surveyinfo">
+    {CHECKJAVASCRIPT}
+    <h1>{SURVEYNAME}</h1>
+
+    <div class='surveydescription'>{SURVEYDESCRIPTION}</div>
+</div>
+
+<div class="welcomenote">{WELCOME}</div>
+<div class="therearexquestions">{THEREAREXQUESTIONS}</div>

@@ -1,0 +1,7 @@
+<br />
+
+<div id="clearall">
+    <span class="answerscleared">{ANSWERSCLEARED}</span><br /><br />
+    {RESTART}<br />
+    {CLOSEWINDOW}
+</div>

@@ -1,0 +1,7 @@
+<div id="register">
+    <span class="error">{REGISTERERROR}</span>
+    <p class="regmessage1">{REGISTERMESSAGE1}</p>
+    <p class="regmessage2">{REGISTERMESSAGE2}</p>
+
+    {REGISTERFORM}
+</div>

@@ -1,0 +1,4 @@
+<div id="completed">
+    {COMPLETED}<br /><br />
+	{URL}
+</div>

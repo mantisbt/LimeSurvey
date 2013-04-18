@@ -1,0 +1,10 @@
+<div id="load">
+    <h1>{LOADHEADING}</h1>
+
+    <span class="error">{LOADERROR}</span>
+    <div class="loadmessage">{LOADMESSAGE}</div>
+    
+    {LOADFORM}
+    
+    {RETURNTOSURVEY}
+</div>

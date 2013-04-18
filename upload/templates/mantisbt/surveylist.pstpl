@@ -1,0 +1,11 @@
+<div id="surveylist">
+    <h1>{SITENAME}</h1>
+
+    <span class="surveylistheading">{SURVEYLISTHEADING}</span>
+
+    <ul>{SURVEYLIST}</ul>
+
+    <div class="lang-wrapper">{LANGUAGECHANGER}</div>
+
+    <div class="surveycontact">{SURVEYCONTACT}</div>
+</div>

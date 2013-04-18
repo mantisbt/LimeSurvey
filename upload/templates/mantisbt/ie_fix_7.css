@@ -1,0 +1,177 @@
+/* The following styles are for all versions of IE 7 */
+
+
+/*----------------------------------------------------------------------------*/
+/* START: Remove centered alignment of questions */
+.questiontext,
+div.questionhelp {
+  text-align:left;
+}
+.date .answer,
+.numeric .answer,
+.numeric-multi .answer,
+.ranking .answer table.rank td.rank,
+.gender .answer,
+.language .answer,
+.yes-no .answer,
+.multiple-opt .answer,
+.choice-5-pt-radio .answer,
+.list-radio .answer,
+.list-with-comment .answer,
+.list-dropdown .answer,
+.text-short .answer,
+.text-long .answer,
+.text-huge .answer {
+  text-align:left;
+}
+table.question,
+.ranking .answer table {
+  margin-left:0;
+}
+
+
+/* Answer box padding-left? */
+.date .answer,
+.gender .answer,
+.numeric .answer,
+.numeric-multi .answer,
+.ranking .answer,
+.yes-no .answer,
+.language .answer,
+.multiple-opt .answer,
+.multiple-opt-comments .answer,
+.list-dropdown .answer,
+.choice-5-pt-radio .answer,
+.list-radio .answer,
+.list-with-comment .answer,
+.multiple-short-txt .answer,
+.text-short .answer,
+.text-long .answer,
+.text-huge .answer { /* applies to all question types but array */
+}
+
+
+/* Questionhelp padding-left? */
+.date div.questionhelp,
+.gender  div.questionhelp,
+.numeric  div.questionhelp,
+.numeric-multi  div.questionhelp,
+.ranking  div.questionhelp,
+.yes-no  div.questionhelp,
+.language  div.questionhelp,
+.multiple-opt  div.questionhelp,
+.multiple-opt-comments  div.questionhelp,
+.list-dropdown  div.questionhelp,
+.choice-5-pt-radio  div.questionhelp,
+.list-radio  div.questionhelp,
+.list-with-comment  div.questionhelp,
+.multiple-short-txt  div.questionhelp,
+.text-short  div.questionhelp,
+.text-long  div.questionhelp,
+.text-huge  div.questionhelp { /* applies to all question types but array */
+}
+
+
+/* Should array tables have a different width? */
+table.question {}
+
+
+/* Display left part aligned left */
+.numeric-multi .answer ul li label,
+.multiple-short-txt .answer ul li label {
+  text-align:left;
+}
+/* END: Remove centered alignment of questions */
+/*----------------------------------------------------------------------------*/
+
+
+
+
+
+/* No support for display:table; therefore use block settings */
+.numeric-multi .answer ul li label, .numeric-multi .answer ul li span,
+.multiple-opt-comments ul li span.option,
+.multiple-short-txt ul li label {
+  display:inline-block;
+  width:40%;
+}
+.numeric-multi .answer ul li.multiplenumerichelp label {
+  width:80px;
+}
+
+
+/* Add extra space between the textareas */
+.multiple-short-txt .answer ul li span textarea {
+  margin-top:5px;
+}
+
+
+/* Create columns */
+ul.cols-2-ul, ul.cols-3-ul, ul.cols-4-ul, ul.cols-5-ul, ul.cols-6-ul, ul.cols-7-ul, ul.cols-8-ul {
+  float:left;
+}
+
+
+/* Makes slider look as it (almost) should */
+.numeric-multi .answer ul li {
+  clear:left;
+  display:inline-block;
+}
+
+
+/* Create more space between checkbox/radio and text */
+.gender .answer ul li label.answertext,
+.yes-no .answer ul li label.answertext,
+.multiple-opt .answer ul li label.answertext,
+.choice-5-pt-radio .answer ul li label.answertext,
+.list-radio .answer ul li label.answertext,
+.list-with-comment .answer .list ul li label {
+  margin-left:25px;
+}
+.multiple-opt-comments .answer ul li span.option {
+  padding-left:25px;
+}
+.multiple-opt-comments .answer li span.option input.checkbox {
+  margin-left:-25px;
+}
+/* Move answer input text field (for other comment) more to the right */
+.multiple-opt-comments ul li.other span.comment {
+  /* That the correction for the minus value above */
+  margin-left:25px;
+}
+
+
+
+/* Make the button behind the date text input field look nicer */
+.date button {
+  line-height:15px;
+  height:23px;
+  width:30px;
+  vertical-align:bottom;
+}
+
+
+
+/** UI Slider **/
+.numeric-multi .answer ul li label.slider-label {
+  display:inline; /* reset display-block from above */
+  float:left;
+  width:80px;
+  margin-top:20px;
+}
+.slider_lefttext {
+  float:left;
+  width:80px;
+  margin-top:20px;
+}
+.multinum-slider {
+  float:left;
+  width:230px;
+  text-align:center;
+  padding-bottom:10px;
+}
+.slider_righttext {
+  float:left;
+  width:80px;
+  margin-top:20px;
+}

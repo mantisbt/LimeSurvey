@@ -1,0 +1,11 @@
+<div id="navigator" class="clearfix">
+    <div id="left">
+        {SAVE}
+    </div>
+    <div id="right">
+        {CLEARALL}
+    </div>
+    <div id="middle">
+        {NAVIGATOR}
+    </div>
+</div>
