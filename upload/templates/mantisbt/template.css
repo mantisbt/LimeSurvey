@@ -1152,3 +1152,55 @@ input.ui-button {
 }
 
 /*** End jQuery UI Theme Styles ***/
+
+
+/* Question Index */
+
+#index {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#index h2 {
+	background-color: #D2E0F2;
+	margin-top: 1em;
+	padding: 0.3em 0 0.3em 0;
+	text-align: center;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#index .container {
+	text-align: center;
+	margin: 0 12% 10px;
+}
+
+#index .container .row {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+	margin: 1px 0 1px 0;
+}
+
+#index .container .row:hover {
+	background: #EEF6FF;
+	color: #328639;
+	cursor: pointer;
+}
+
+#index .container .row .hdr {
+	width: 3em;
+	text-align: right;
+	display: inline-block;
+	padding-right: 0.75em;
+}
+
+#index .container .row.current {
+	font-weight: bold;
+}
+
+/* Hiding the submit button as we already have it in the navigator div */
+#index .container input {
+	display: none;
+}
