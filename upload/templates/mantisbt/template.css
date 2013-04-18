@@ -1184,9 +1184,9 @@ input.ui-button {
 }
 
 #index .container .row:hover {
-	background: #EEF6FF;
-	color: #328639;
+	color: #819D26;
 	cursor: pointer;
+	text-decoration:underline;
 }
 
 #index .container .row .hdr {
