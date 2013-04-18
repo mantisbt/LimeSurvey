@@ -1017,11 +1017,11 @@ ul.cols-2-ul li,ul.cols-3-ul li,ul.cols-4-ul li,ul.cols-5-ul li,ul.cols-6-ul li,
 
 /* START: Clearfix */
 .clearfix:after {
-  content:"."; 
-  display:block; 
-  height:0; 
-  clear:both; 
-  visibility:hidden;
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
 }
 .clearfix {display:inline-block;}
 /* Hides from IE-mac \*/
