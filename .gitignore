@@ -2,6 +2,8 @@
 /upload/surveys/*
 /styles/gringegreen/images/Thumbs.db
 /upload/templates/*
+# Include mantisbt custom template
+!/upload/templates/mantisbt/
 /tmp/runtime/HTML
 /application/controllers/admin/updater.php
 /tmp/*.html
